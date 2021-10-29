@@ -1,24 +1,24 @@
 .container {
   background-color: #3399CC;
-  width: 800px;
-  height: 450px;
   margin: 50px auto;
-  border: 2px solid red;
   box-sizing: border-box; }
   .container .weather-name {
     color: white;
     font-size: 16px;
     padding: 20px;
     font-weight: 400;
-    border: 3px solid white; }
+    border: 3px solid white;
+    width: auto; }
   .container .part-1 {
     width: 100%;
-    height: 80px;
     display: flex;
     text-align: center;
     justify-content: center; }
+    @media only screen and (min-width: 300px) and (max-width: 400px) {
+      .container .part-1 {
+        display: inline-block;
+        margin: 0 auto; } }
     .container .part-1 .lisbon {
-      width: 50%;
       border: 3px solid white;
       box-sizing: border-box; }
       .container .part-1 .lisbon .name {
@@ -33,7 +33,6 @@
         .container .part-1 .lisbon .wrap .temp {
           margin-right: 8px; }
     .container .part-1 .paris {
-      width: 25%;
       background-color: #33CCCC;
       border: 3px solid white;
       box-sizing: border-box; }
@@ -49,7 +48,6 @@
         .container .part-1 .paris .wrap .temp {
           margin-right: 8px; }
     .container .part-1 .belgrade {
-      width: 25%;
       background-color: #996699;
       border: 3px solid white;
       box-sizing: border-box; }
@@ -66,12 +64,14 @@
           margin-right: 8px; }
   .container .part-2 {
     width: 100%;
-    height: 80px;
     display: flex;
     text-align: center;
     justify-content: center; }
+    @media only screen and (min-width: 300px) and (max-width: 400px) {
+      .container .part-2 {
+        display: inline-block;
+        margin: 0 auto; } }
     .container .part-2 .moskov {
-      width: 25%;
       background-color: #C24747;
       border: 3px solid white;
       box-sizing: border-box; }
@@ -87,7 +87,6 @@
         .container .part-2 .moskov .wrap .temp {
           margin-right: 8px; }
     .container .part-2 .telaviv {
-      width: 25%;
       background-color: #E2674A;
       border: 3px solid white;
       box-sizing: border-box; }
@@ -103,7 +102,6 @@
         .container .part-2 .telaviv .wrap .temp {
           margin-right: 8px; }
     .container .part-2 .cair {
-      width: 25%;
       background-color: #FFCC66;
       border: 3px solid white;
       box-sizing: border-box; }
@@ -119,7 +117,6 @@
         .container .part-2 .cair .wrap .temp {
           margin-right: 8px; }
     .container .part-2 .newyork {
-      width: 25%;
       background-color: #99CC99;
       border: 3px solid white;
       box-sizing: border-box; }
@@ -136,12 +133,14 @@
           margin-right: 8px; }
   .container .part-3 {
     width: 100%;
-    height: 80px;
     display: flex;
     text-align: center;
     justify-content: center; }
+    @media only screen and (min-width: 300px) and (max-width: 400px) {
+      .container .part-3 {
+        display: inline-block;
+        margin: 0 auto; } }
     .container .part-3 .newdelhi {
-      width: 25%;
       background-color: #669999;
       border: 3px solid white;
       box-sizing: border-box; }
@@ -157,7 +156,6 @@
         .container .part-3 .newdelhi .wrap .temp {
           margin-right: 8px; }
     .container .part-3 .sanfran {
-      width: 50%;
       background-color: #996699;
       border: 3px solid white;
       box-sizing: border-box; }
@@ -173,7 +171,6 @@
         .container .part-3 .sanfran .wrap .temp {
           margin-right: 8px; }
     .container .part-3 .tokyo {
-      width: 25%;
       background-color: #297E53;
       border: 3px solid white;
       box-sizing: border-box; }
@@ -188,8 +185,11 @@
         color: white; }
         .container .part-3 .tokyo .wrap .temp {
           margin-right: 8px; }
+  @media only screen and (min-width: 300px) and (max-width: 400px) {
+    .container .part-4 {
+      display: block;
+      margin: 0 auto; } }
   .container .part-4 .sydney {
-    width: 100%;
     background-color: #666699;
     text-align: center;
     border: 3px solid white;
