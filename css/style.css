@@ -7,204 +7,193 @@
     font-size: 16px;
     padding: 20px;
     font-weight: 400;
-    border: 3px solid white;
-    width: auto; }
-  .container .part-1 {
-    width: 100%;
-    display: flex;
-    text-align: center;
-    justify-content: center; }
-    @media only screen and (min-width: 300px) and (max-width: 400px) {
-      .container .part-1 {
-        display: inline-block;
-        margin: 0 auto; } }
-    .container .part-1 .lisbon {
-      border: 3px solid white;
-      box-sizing: border-box; }
-      .container .part-1 .lisbon .name {
-        color: white;
-        margin-top: 10px;
-        margin-bottom: 10px; }
-      .container .part-1 .lisbon .wrap {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: white; }
-        .container .part-1 .lisbon .wrap .temp {
-          margin-right: 8px; }
-    .container .part-1 .paris {
-      background-color: #33CCCC;
-      border: 3px solid white;
-      box-sizing: border-box; }
-      .container .part-1 .paris .name {
-        color: white;
-        margin-top: 10px;
-        margin-bottom: 10px; }
-      .container .part-1 .paris .wrap {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: white; }
-        .container .part-1 .paris .wrap .temp {
-          margin-right: 8px; }
-    .container .part-1 .belgrade {
-      background-color: #996699;
-      border: 3px solid white;
-      box-sizing: border-box; }
-      .container .part-1 .belgrade .name {
-        color: white;
-        margin-top: 10px;
-        margin-bottom: 10px; }
-      .container .part-1 .belgrade .wrap {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: white; }
-        .container .part-1 .belgrade .wrap .temp {
-          margin-right: 8px; }
-  .container .part-2 {
-    width: 100%;
-    display: flex;
-    text-align: center;
-    justify-content: center; }
-    @media only screen and (min-width: 300px) and (max-width: 400px) {
-      .container .part-2 {
-        display: inline-block;
-        margin: 0 auto; } }
-    .container .part-2 .moskov {
-      background-color: #C24747;
-      border: 3px solid white;
-      box-sizing: border-box; }
-      .container .part-2 .moskov .name {
-        color: white;
-        margin-top: 10px;
-        margin-bottom: 10px; }
-      .container .part-2 .moskov .wrap {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: white; }
-        .container .part-2 .moskov .wrap .temp {
-          margin-right: 8px; }
-    .container .part-2 .telaviv {
-      background-color: #E2674A;
-      border: 3px solid white;
-      box-sizing: border-box; }
-      .container .part-2 .telaviv .name {
-        color: white;
-        margin-top: 10px;
-        margin-bottom: 10px; }
-      .container .part-2 .telaviv .wrap {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: white; }
-        .container .part-2 .telaviv .wrap .temp {
-          margin-right: 8px; }
-    .container .part-2 .cair {
-      background-color: #FFCC66;
-      border: 3px solid white;
-      box-sizing: border-box; }
-      .container .part-2 .cair .name {
-        color: white;
-        margin-top: 10px;
-        margin-bottom: 10px; }
-      .container .part-2 .cair .wrap {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: white; }
-        .container .part-2 .cair .wrap .temp {
-          margin-right: 8px; }
-    .container .part-2 .newyork {
-      background-color: #99CC99;
-      border: 3px solid white;
-      box-sizing: border-box; }
-      .container .part-2 .newyork .name {
-        color: white;
-        margin-top: 10px;
-        margin-bottom: 10px; }
-      .container .part-2 .newyork .wrap {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: white; }
-        .container .part-2 .newyork .wrap .temp {
-          margin-right: 8px; }
-  .container .part-3 {
-    width: 100%;
-    display: flex;
-    text-align: center;
-    justify-content: center; }
-    @media only screen and (min-width: 300px) and (max-width: 400px) {
-      .container .part-3 {
-        display: inline-block;
-        margin: 0 auto; } }
-    .container .part-3 .newdelhi {
-      background-color: #669999;
-      border: 3px solid white;
-      box-sizing: border-box; }
-      .container .part-3 .newdelhi .name {
-        color: white;
-        margin-bottom: 10px;
-        margin-top: 10px; }
-      .container .part-3 .newdelhi .wrap {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: white; }
-        .container .part-3 .newdelhi .wrap .temp {
-          margin-right: 8px; }
-    .container .part-3 .sanfran {
-      background-color: #996699;
-      border: 3px solid white;
-      box-sizing: border-box; }
-      .container .part-3 .sanfran .name {
-        color: white;
-        margin-bottom: 10px;
-        margin-top: 10px; }
-      .container .part-3 .sanfran .wrap {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: white; }
-        .container .part-3 .sanfran .wrap .temp {
-          margin-right: 8px; }
-    .container .part-3 .tokyo {
-      background-color: #297E53;
-      border: 3px solid white;
-      box-sizing: border-box; }
-      .container .part-3 .tokyo .name {
-        color: white;
-        margin-bottom: 10px;
-        margin-top: 10px; }
-      .container .part-3 .tokyo .wrap {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: white; }
-        .container .part-3 .tokyo .wrap .temp {
-          margin-right: 8px; }
-  @media only screen and (min-width: 300px) and (max-width: 400px) {
-    .container .part-4 {
-      display: block;
-      margin: 0 auto; } }
-  .container .part-4 .sydney {
-    background-color: #666699;
-    text-align: center;
-    border: 3px solid white;
+    width: auto;
     box-sizing: border-box; }
-    .container .part-4 .sydney .name {
+  .container .lisbon {
+    border: 3px solid white;
+    box-sizing: border-box;
+    text-align: center; }
+    .container .lisbon .name {
       color: white;
-      margin-bottom: 10px;
-      margin-top: 10px; }
-    .container .part-4 .sydney .wrap {
+      margin-top: 5px;
+      margin-bottom: 5px; }
+    .container .lisbon .wrap {
       display: flex;
       align-items: center;
       justify-content: center;
       color: white;
       margin-bottom: 10px; }
-      .container .part-4 .sydney .wrap .temp {
+      .container .lisbon .wrap .temp {
+        margin-right: 8px; }
+  .container .paris {
+    background-color: #33CCCC;
+    border: 3px solid white;
+    box-sizing: border-box;
+    text-align: center; }
+    .container .paris .name {
+      color: white;
+      margin-top: 5px;
+      margin-bottom: 5px; }
+    .container .paris .wrap {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      margin-bottom: 10px; }
+      .container .paris .wrap .temp {
+        margin-right: 8px; }
+  .container .belgrade {
+    background-color: #996699;
+    border: 3px solid white;
+    box-sizing: border-box;
+    text-align: center; }
+    .container .belgrade .name {
+      color: white;
+      margin-top: 5px;
+      margin-bottom: 5px; }
+    .container .belgrade .wrap {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      margin-bottom: 10px; }
+      .container .belgrade .wrap .temp {
+        margin-right: 8px; }
+  .container .moskov {
+    background-color: #C24747;
+    border: 3px solid white;
+    box-sizing: border-box;
+    text-align: center; }
+    .container .moskov .name {
+      color: white;
+      margin-top: 5px;
+      margin-bottom: 5px; }
+    .container .moskov .wrap {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      margin-bottom: 10px; }
+      .container .moskov .wrap .temp {
+        margin-right: 8px; }
+  .container .telaviv {
+    background-color: #E2674A;
+    border: 3px solid white;
+    box-sizing: border-box;
+    text-align: center; }
+    .container .telaviv .name {
+      color: white;
+      margin-top: 5px;
+      margin-bottom: 5px; }
+    .container .telaviv .wrap {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      margin-bottom: 10px; }
+      .container .telaviv .wrap .temp {
+        margin-right: 8px; }
+  .container .cair {
+    background-color: #FFCC66;
+    border: 3px solid white;
+    box-sizing: border-box;
+    text-align: center; }
+    .container .cair .name {
+      color: white;
+      margin-top: 5px;
+      margin-bottom: 5px; }
+    .container .cair .wrap {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      margin-bottom: 10px; }
+      .container .cair .wrap .temp {
+        margin-right: 8px; }
+  .container .newyork {
+    background-color: #99CC99;
+    border: 3px solid white;
+    box-sizing: border-box;
+    text-align: center; }
+    .container .newyork .name {
+      color: white;
+      margin-top: 5px;
+      margin-bottom: 5px; }
+    .container .newyork .wrap {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      margin-bottom: 10px; }
+      .container .newyork .wrap .temp {
+        margin-right: 8px; }
+  .container .newdelhi {
+    background-color: #669999;
+    border: 3px solid white;
+    box-sizing: border-box;
+    text-align: center; }
+    .container .newdelhi .name {
+      color: white;
+      margin-bottom: 5px;
+      margin-top: 5px; }
+    .container .newdelhi .wrap {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      margin-bottom: 10px; }
+      .container .newdelhi .wrap .temp {
+        margin-right: 8px; }
+  .container .sanfran {
+    background-color: #996699;
+    border: 3px solid white;
+    box-sizing: border-box;
+    text-align: center; }
+    .container .sanfran .name {
+      color: white;
+      margin-bottom: 5px;
+      margin-top: 5px; }
+    .container .sanfran .wrap {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      margin-bottom: 10px; }
+      .container .sanfran .wrap .temp {
+        margin-right: 8px; }
+  .container .tokyo {
+    background-color: #297E53;
+    border: 3px solid white;
+    box-sizing: border-box;
+    text-align: center; }
+    .container .tokyo .name {
+      color: white;
+      margin-bottom: 5px;
+      margin-top: 5px; }
+    .container .tokyo .wrap {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      margin-bottom: 10px; }
+      .container .tokyo .wrap .temp {
+        margin-right: 8px; }
+  .container .sydney {
+    background-color: #666699;
+    text-align: center;
+    border: 3px solid white;
+    box-sizing: border-box; }
+    .container .sydney .name {
+      color: white;
+      margin-bottom: 5px;
+      margin-top: 5px; }
+    .container .sydney .wrap {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      margin-bottom: 10px; }
+      .container .sydney .wrap .temp {
         margin-right: 8px; }
   .container footer {
     margin: 20px;
