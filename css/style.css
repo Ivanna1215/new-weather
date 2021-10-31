@@ -7,7 +7,7 @@
     font-size: 16px;
     padding: 20px;
     font-weight: 400;
-    width: auto;
+    border: 3px solid white;
     box-sizing: border-box; }
   .container .lisbon {
     border: 3px solid white;
@@ -196,5 +196,6 @@
       .container .sydney .wrap .temp {
         margin-right: 8px; }
   .container footer {
-    margin: 20px;
-    color: white; }
+    color: white;
+    border: 3px solid white;
+    padding: 20px 20px 20px 20px; }

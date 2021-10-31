@@ -10,8 +10,7 @@
     font-size: 16px;
   padding: 20px;
 font-weight: 400;
-// border: 3px solid white;
-width: auto;
+border: 3px solid white;
 box-sizing: border-box;
 }
 
@@ -278,8 +277,11 @@ box-sizing: border-box;
 
 
 footer {
-    margin: 20px;
+    // margin: 20px;
     color: white;
+    border: 3px solid white;
+    padding: 20px 20px 20px 20px;
+
 
 
 }
